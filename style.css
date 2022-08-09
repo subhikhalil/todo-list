@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+
+    font-size: 18px;
+    font-family:sans-serif;
+
+    color: #264653;
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 0;
+
+    color: #264653;
+    font-size: 50px;
+}
+
+header {
+    margin: 0;
+    padding: 30px 15px 40px;
+    width: 100%;
+    text-align: center;
+
+
+
+    background-color: #E76F51;
+}
+
+header > input {
+    padding: 20px 20px;
+    /* height: 30px; */
+    
+    background-color: #E9C46A;
+    color: #264653;
+    border: none;
+    border-radius: 5px;
+    font-family:sans-serif;
+
+}
+
+header > #input-el {
+    /* transition: width 1.4s ease-in-out; */
+    width: 18%;
+
+    transition: width 0.6s ease-in-out 1.7s;
+    
+}
+
+header > #input-el:focus {
+    border: 2px solid #264653;
+    outline: none;
+    transition: width 0.6s ease-in-out;
+    width: 40%;
+    background-color: #E9C46A;
+}
+
+header > #submit-btn:hover {
+    background-color: #F4A261;
+}
+
+body {
+    background-color: #2A9D8F;
+}
+
+.task-el {
+    display: flex;
+    margin: 10px 50px;
+    padding: 0px 20px;
+    padding-left: 30px;
+
+    justify-content:space-between;
+    align-items: center;
+    
+    font-size: 25px;
+    font-weight: 600;
+    border: 5px solid #F4A261;
+    border-radius: 25px;
+    background-color: #E9C46A;
+}
+
+.task-el > p:hover {
+    background-color: #F4A261;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.task-el > button {
+    border: none;
+    height:40px;
+    background: none;
+}
+
+.task-el > button:hover {
+    background-color: #F4A261;
+    transition: background-color 0.2s ease-in-out;
+}

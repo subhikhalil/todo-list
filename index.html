@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            TO DO LIST
+        </title>
+        <link href="css/style.css" rel="stylesheet">
+        
+        <!-- google icon library -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+    <body>
+        
+    </body>
+    <header>
+            <h1>TO DO:</h1>
+            <input type="text" id="input-el" placeholder="Write a new task here!">
+            <input type="button" id="submit-btn" value="Add">
+        </header>
+        <main>
+            <!-- tasks -->
+            <div id="container">
+                <span class="task-el">
+                    <p onclick="mark(this)">test</p>
+                    <button onclick="removeItem(this)"><i class="material-icons">delete</i></button>
+                </span>
+            </div>
+        </main>
+    <script src="index.js"></script>
+</html>
+
+<!-- 
+TODO:
+- [DONE] input tasks (input field + "add" button)
+- [DONE] strikethrough completed tasks
+- [DONE] change colors on strikethrough
+- [DONE] individual delete buttons 
+- "delete all completed tasks" button
+
+Stretch goals:
+- reorder tasks (learn the "draggable" html attribute) -> (https://youtu.be/-MC54Op7woM)
+- delete animations (https://fjolt.com/article/css-delete-item-ui-animations)
+- be able to rename tasks ("contenteditable" attribute, figure out how to
+                            prevent line breaks)
+- recolor tasks
+-->
